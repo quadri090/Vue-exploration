@@ -1,0 +1,12 @@
+export function navigation = function() {const faBars = document.querySelector('faBars');
+const navbar = document.querySelector('navbar');
+
+faBars.addEventListener("click", function() {
+    navbar.classList.toggle('top-[80px]');
+    navbar.classList.toggle('top-[-999px]');
+    navbar.classList.toggle('z-10');
+    navbar.classList.toggle('z-0');
+    navbar.classList.toggle('opacity-100');
+    navbar.classList.toggle('opacity-0');
+})
+}
